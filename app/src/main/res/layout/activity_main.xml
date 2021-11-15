@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/word1"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:text="Plural Noun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/word2"
+        android:layout_width="123dp"
+        android:layout_height="39dp"
+        android:text="Noun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word1"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:id="@+id/word3"
+        android:layout_width="125dp"
+        android:layout_height="37dp"
+        android:text="Adjective"
+        app:layout_constraintBottom_toTopOf="@+id/word4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word2"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <TextView
+        android:id="@+id/word4"
+        android:layout_width="118dp"
+        android:layout_height="41dp"
+        android:text="Noun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word1"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <TextView
+        android:id="@+id/word5"
+        android:layout_width="115dp"
+        android:layout_height="34dp"
+        android:text="Adverb"
+        app:layout_constraintBottom_toTopOf="@+id/word6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word4"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <TextView
+        android:id="@+id/word6"
+        android:layout_width="116dp"
+        android:layout_height="40dp"
+        android:text="Verb"
+        app:layout_constraintBottom_toTopOf="@+id/word7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word4"
+        app:layout_constraintVertical_bias="0.768" />
+
+    <TextView
+        android:id="@+id/word7"
+        android:layout_width="122dp"
+        android:layout_height="45dp"
+        android:text="Noun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <EditText
+        android:id="@+id/editText_word1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Plural Noun"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/word1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/editText_word2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Noun"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/word2"
+        app:layout_constraintTop_toBottomOf="@+id/editText_word1"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <EditText
+        android:id="@+id/editText_word3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Adjective"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toEndOf="@+id/word3"
+        app:layout_constraintTop_toBottomOf="@+id/editText_word2"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <EditText
+        android:id="@+id/editText_word4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Noun"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toEndOf="@+id/word4"
+        app:layout_constraintTop_toBottomOf="@+id/editText_word3"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <EditText
+        android:id="@+id/editText_word5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Adverd"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/word5"
+        app:layout_constraintTop_toBottomOf="@+id/editText_word4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editText_word6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Verb"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText_word7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toEndOf="@+id/word6"
+        app:layout_constraintTop_toBottomOf="@+id/editText_word5"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <EditText
+        android:id="@+id/editText_word7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:ems="10"
+        android:hint="Noun"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/word7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSubmitClick"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>
