@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <TextView
+        <TextView
         android:id="@+id/word1"
         android:layout_width="128dp"
         android:layout_height="41dp"
@@ -192,15 +191,152 @@
 
     <Button
         android:id="@+id/submit_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="111dp"
+        android:layout_height="70dp"
         android:onClick="onSubmitClick"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931" />
+        app:layout_constraintVertical_bias="0.975" />
 
+<!--    <ScrollView-->
+<!--        android:layout_width="359dp"-->
+<!--        android:layout_height="622dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.489"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.287">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word1"-->
+<!--                android:layout_width="128dp"-->
+<!--                android:layout_height="41dp"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:text="Plural Noun" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editText_word1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Plural Noun"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word2"-->
+<!--                android:layout_width="123dp"-->
+<!--                android:layout_height="39dp"-->
+<!--                android:text="Noun" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editText_word2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Noun"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word3"-->
+<!--                android:layout_width="125dp"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:text="Adjective" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editText_word3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Adjective"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word4"-->
+<!--                android:layout_width="118dp"-->
+<!--                android:layout_height="41dp"-->
+<!--                android:text="Noun" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editText_word4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Noun"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word5"-->
+<!--                android:layout_width="112dp"-->
+<!--                android:layout_height="42dp"-->
+<!--                android:text="Adverb" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editText_word5"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Adverd"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word6"-->
+<!--                android:layout_width="116dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:text="Verb" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editText_word6"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Verb"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word7"-->
+<!--                android:layout_width="122dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:text="Noun" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editText_word7"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Noun"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/submit_button"-->
+<!--                android:layout_width="111dp"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:onClick="onSubmitClick"-->
+<!--                android:text="Submit" />-->
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
 </androidx.constraintlayout.widget.ConstraintLayout>
