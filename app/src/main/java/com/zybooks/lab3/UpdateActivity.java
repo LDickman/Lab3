@@ -1,7 +1,5 @@
 package com.zybooks.lab3;
 
-import static com.zybooks.lab3.MainActivity.getFinalString;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
